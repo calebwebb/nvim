@@ -5,7 +5,6 @@ local colorscheme = require("lazyvim.plugins.colorscheme")
 
 local g = vim.g
 local opt = vim.opt
-local cmd = vim.cmd
 
 g.mapleader = " "
 
