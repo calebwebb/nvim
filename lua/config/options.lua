@@ -1,9 +1,11 @@
+local colorscheme = require("lazyvim.plugins.colorscheme")
 -- Options are automatically loaded before lazy.nvim startup
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
 
 local g = vim.g
 local opt = vim.opt
+local cmd = vim.cmd
 
 g.mapleader = " "
 
@@ -34,4 +36,4 @@ opt.wrap = true
 opt.history = 100
 opt.lazyredraw = false
 opt.synmaxcol = 240
-opt.updatetime = 250
+opt.updatetime = 100
