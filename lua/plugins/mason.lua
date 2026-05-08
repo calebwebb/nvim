@@ -31,6 +31,7 @@ return {
                 "black",
                 "isort",
                 "stylua",
+                "bicep-lsp"
             },
         },
     },
